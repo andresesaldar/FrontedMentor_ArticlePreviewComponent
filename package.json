@@ -3,6 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "main": "src/main.tsx",
+  "homepage": "https://andresesaldar.github.io/FrontedMentor_ArticlePreviewComponent/",
   "repository": "https://github.com/andresesaldar/FrontedMentor_ArticlePreviewComponent.git",
   "author": "Andres Saldarriaga <andresesaldar2001@gmail.com>",
   "scripts": {
