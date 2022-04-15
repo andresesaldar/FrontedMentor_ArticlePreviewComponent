@@ -1,0 +1,25 @@
+{
+  "name": "article-preview-component",
+  "private": false,
+  "version": "0.0.0",
+  "main": "src/main.tsx",
+  "homepage": "https://andresesaldar.github.io/FrontedMentor_ArticlePreviewComponent/",
+  "repository": "https://github.com/andresesaldar/FrontedMentor_ArticlePreviewComponent.git",
+  "author": "Andres Saldarriaga <andresesaldar2001@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.2"
+  }
+}
