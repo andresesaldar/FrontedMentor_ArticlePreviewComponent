@@ -1,17 +1,20 @@
 import React, { FC } from 'react';
+import FacebookShareIcon from '../../assets/icons/icon-facebook.svg';
+import TwitterShareIcon from '../../assets/icons/icon-twitter.svg';
+import PinterestShareIcon from '../../assets/icons/icon-pinterest.svg';
 
 export const ArticleShare: FC = () => {
     return (
         <div>
             <span>SHARE</span>
             <a href="#">
-                <img src="src/assets/icons/icon-facebook.svg" alt="Share to facebook icon" />
+                <img src={FacebookShareIcon} alt="Share to facebook icon" />
             </a>
             <a href="#">
-                <img src="src/assets/icons/icon-twitter.svg" alt="Share to facebook icon" />
+                <img src={TwitterShareIcon} alt="Share to facebook icon" />
             </a>
             <a href="#">
-                <img src="src/assets/icons/icon-pinterest.svg" alt="Share to pinterest icon" />
+                <img src={PinterestShareIcon} alt="Share to pinterest icon" />
             </a>
         </div>
     );
