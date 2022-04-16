@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
+import ArticleImageSrc from '../../assets/images/drawers.jpg';
 
 export const ArticleImage: FC = () => {
-    return <img src="src/assets/images/drawers.jpg" alt="Article Image" />;
+    return <img src={ArticleImageSrc} alt="Article Image" />;
 };
