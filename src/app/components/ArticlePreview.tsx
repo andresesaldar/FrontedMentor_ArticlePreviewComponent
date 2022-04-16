@@ -1,7 +1,7 @@
-import { FC } from "react";
-import { ArticleActions } from "./ArticleActions";
-import { ArticleImage } from "./ArticleImage";
-import { ArticleInfo } from "./ArticleInfo";
+import React, { FC } from 'react';
+import { ArticleActions } from './ArticleActions';
+import { ArticleImage } from './ArticleImage';
+import { ArticleInfo } from './ArticleInfo';
 
 export const ArticlePreview: FC = () => {
     return (
@@ -10,5 +10,5 @@ export const ArticlePreview: FC = () => {
             <ArticleInfo></ArticleInfo>
             <ArticleActions></ArticleActions>
         </div>
-    )
-}
+    );
+};
