@@ -5,6 +5,7 @@ cache: yarn
 install:
   - yarn install --immutable --immutable-cache --check-cache
 script:
+  - yarn lint
   - yarn build
 deploy:
   provider: pages
