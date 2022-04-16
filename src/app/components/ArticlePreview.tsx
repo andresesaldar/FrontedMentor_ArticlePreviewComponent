@@ -1,5 +1,14 @@
 import { FC } from "react";
+import { ArticleActions } from "./ArticleActions";
+import { ArticleImage } from "./ArticleImage";
+import { ArticleInfo } from "./ArticleInfo";
 
 export const ArticlePreview: FC = () => {
-    return <p>ArticlePreview</p>
+    return (
+        <div>
+            <ArticleImage></ArticleImage>
+            <ArticleInfo></ArticleInfo>
+            <ArticleActions></ArticleActions>
+        </div>
+    )
 }
