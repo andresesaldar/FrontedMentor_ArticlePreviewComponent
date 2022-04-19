@@ -1,10 +1,9 @@
 import React, { FC } from 'react';
-import './App.sass';
 import { ArticlePreview } from './components/ArticlePreview';
 
 export const App: FC = () => {
     return (
-        <div>
+        <div className="bg-core-light w-100 h-100 d-flex flex-row align-items-center justify-content-center">
             <ArticlePreview></ArticlePreview>
         </div>
     );

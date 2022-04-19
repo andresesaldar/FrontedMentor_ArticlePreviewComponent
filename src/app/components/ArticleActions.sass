@@ -1,0 +1,43 @@
+@import '../../index'
+
+.avatar
+    width: 50px
+
+.author-name
+    @media screen and (max-width: $core-sm-size)
+        font-size: .8rem !important
+
+
+.btn-share
+    background-color: $core-light
+    & img
+        @media screen and (max-width: $core-sm-size)
+            filter: brightness(0) invert(1)
+    &:hover
+        background-color: $core-primary
+        & img
+            filter: brightness(0) invert(1)
+    
+    @media screen and (max-width: $core-sm-size)
+        background-color: $core-primary !important 
+        position: absolute
+        right: 3rem
+        top: 25%
+
+.article-date
+    font-size: .9rem
+    color: $core-secondary
+    @media screen and (max-width: $core-sm-size)
+        font-size: .8rem
+
+
+.share-menu-container
+    position: relative
+    @media screen and (max-width: $core-sm-size)
+        position: static
+
+.article-actions-container
+    padding-bottom: 3rem !important
+    @media screen and (max-width: $core-sm-size)
+        position: relative
+        padding-bottom: 1rem !important

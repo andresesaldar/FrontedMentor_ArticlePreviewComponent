@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap')
+    
+$core-primary: hsl(214, 17%, 51%)
+$core-secondary: hsl(212, 23%, 69%)
+$core-dark: hsl(217, 19%, 35%)
+$core-light: hsl(210, 46%, 95%)
+$core-border-radius: 20px
+$core-sm-size: 725px
+$core-lg-size: 900px
+
+body
+    font-family: 'Manrope', sans-serif
+    font-size: 15px
+    color: $core-primary
+    font-weight: bold
+    @media screen and (max-width: $core-lg-size)
+        font-size: 13px
+    @media screen and (max-width: $core-sm-size)
+        font-size: 12px
+
+
+h1, h2, h3, h4, h5, h6
+    color: $core-dark
+    font-weight: bolder
+
+h4
+    font-size: 1.25rem
+
+.bg-core-light
+    background-color: $core-light

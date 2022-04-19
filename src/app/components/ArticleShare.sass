@@ -1,0 +1,40 @@
+@import '../../index'
+
+.share-menu
+    position: absolute !important
+    border-radius: 10px
+    background-color: $core-dark !important
+    left: 50%
+    top: 50%
+    transform: translate(-51%, -160%)
+    padding-top: 1rem 
+    padding-bottom: 1rem 
+
+    &::after
+        content:''
+        position: absolute
+        top: 100%
+        left: 65%
+        margin-left: -50px
+        width: 0
+        height: 0
+        border-top: solid 10px $core-dark
+        border-left: solid 10px transparent
+        border-right: solid 10px transparent 
+
+        @media screen and (max-width: $core-sm-size)
+            content: none
+
+    & .menu-title
+        letter-spacing: .5rem  
+
+    @media screen and (max-width: $core-sm-size)
+        padding-bottom: 1.5rem !important
+        padding-top: 1.5rem !important
+        left: 0
+        top: 0
+        transform: none
+        width: 100% 
+        border-radius: 0 !important
+        border-bottom-left-radius: $core-border-radius !important
+        border-bottom-right-radius: $core-border-radius !important
