@@ -1,0 +1,24 @@
+@import '../../index'
+
+.article-preview-container
+    flex-direction: row !important
+    border-radius: $core-border-radius !important
+    width: 60%
+    
+    & .article-image-container
+        width: 40%
+        @media screen and (max-width: $core-sm-size)
+            width: 100%
+    
+    & .article-info-container
+        width: 60%
+        @media screen and (max-width: $core-sm-size)
+            width: 100%
+        
+    @media screen and (max-width: $core-sm-size)
+        flex-direction: column !important
+    @media screen and (max-width: 550px)
+        width: 75%
+    @media screen and (max-width: 400px)
+        width: 90%
+    
